@@ -1,0 +1,21 @@
+	#include<stdio.h>
+	int main()
+	{
+	    int i,a[5]={10,25,32,46,58};
+	    int max=a[0],min=a[0],n=5,maxdiff;
+	    for(i=0;i<5;i++)
+	    {
+	        if(max<a[i])
+	        {
+	        max=a[i];
+	        }
+	        if(min>a[i])
+	        {
+	        min=a[i];
+	        }
+	    }
+	        maxdiff=max-min;
+	        printf("max=%d\n",max);
+	        printf("min=%d\n",min);
+	       printf("maxdiff=%d",maxdiff); 
+	}

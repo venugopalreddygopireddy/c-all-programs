@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+int rows=5;
+int i,j;
+for(i=0;i<5;i++)
+{
+for(j=0;j<rows*i-1;j++)
+{
+printf("* ");
+}
+printf("\n");
+}
+getch();
+}
